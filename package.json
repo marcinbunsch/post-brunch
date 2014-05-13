@@ -1,0 +1,22 @@
+{
+  "name": "post-brunch",
+  "version": "0.0.1",
+  "description": "A micro-plugin for adding a callback after Brunch's compile.",
+  "main": "./lib/index",
+  "author": "marcinbunsch",
+  "license": "BSD",
+  "dependencies": {},
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcinbunsch/post-brunch"
+  },
+  "keywords": [
+    "brunch",
+    "post-compile"
+  ],
+  "devDependencies": {}
+}
